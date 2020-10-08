@@ -6,12 +6,15 @@
 
 
 2：设置sonar.properties
+```
 sonar.search.javaAdditionalOpts=-Dbootstrap.system_call_filter=false
-
+```
 3： 设置wrapper.conf
-wrapper.java.additional.1=-Dsonar.wrapped=true
--Dbootstrap.system_call_filter=false
-
+```
+wrapper.java.additional.1=-Dsonar.wrapped=true -Dbootstrap.system_call_filter=false
+```
 4： 添加内容：/sonarqube-7.8/elasticsearch/config/elasticsearch.yml
+```
 bootstrap.memory_lock: false
 bootstrap.system_call_filter: false
+```
