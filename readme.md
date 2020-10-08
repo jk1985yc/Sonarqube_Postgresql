@@ -1,3 +1,10 @@
+### Default Admin Credentials
+When installing SonarQube, a default user with Administer System permission is created automatically:
+
+Login: admin
+Password: admin
+
+#### Error Solution
 ```
 ERROR: 
 [1] bootstrap checks failed
