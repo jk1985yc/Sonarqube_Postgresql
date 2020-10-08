@@ -8,6 +8,7 @@ For Temp,Restart Failure
 sysctl -w vm.max_map_count=262144
 ```
 For Permanent
+
 修改/etc/sysctl.conf 添加
 ```
 vm.max_map_count=2621441
